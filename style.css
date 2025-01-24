@@ -1,0 +1,104 @@
+* {
+    input:invalid {
+        border-color: rgb(199, 69, 69);
+    }
+    input:valid {
+        border-color: lightgreen;
+    }
+    input:focus {
+        border-color: blue;
+    }
+}
+
+@font-face {
+    font-family: 'NorseBold';
+    src: url(fonts/Norse-Bold.otf);
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+
+img { 
+    float: left;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.container {
+    max-width: 1440;
+    max-height:1024;
+}
+
+.input_section {
+    background-color: white;
+    display: grid;
+    margin: 0;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.image_container {
+    width: 80%;
+    height: 50%;
+    position: relative;
+}
+
+.img_cont {
+    width: 80%;
+    height: auto;
+    position: relative;
+}
+
+span {
+    font-weight:bold;
+}
+.signup {
+    margin: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.login {
+    font-style: bold;
+}
+
+h2 {
+    text-indent: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #596D48;
+    border-radius: 5%;
+    height: 50px;
+    width: 200px;
+    border: none;
+    position: absolute;
+}
+
+.logo_space {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+    width: 920px;
+    position: absolute;
+}
+
+.submit {
+    margin-top: 5%;
+}
+
+.green {
+    color: green;
+    font-style: bold;
+}
+
+.credit {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-140%, -20px);
+    text-decoration: underline;
+}
